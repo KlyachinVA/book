@@ -3,7 +3,7 @@ import "strconv"
 type Book struct{
 Title string
 Author string
-NumPages int
+NumPages int64
 }
 
 func (b *Book)ToString()string{
