@@ -7,6 +7,6 @@ NumPages int
 }
 
 func (b *Book)ToString()string{
-  txt := strconvFormatInt(b.NumPages,10)
+  txt := strconv.FormatInt(b.NumPages,10)
   return b.Author + " " + b.Title + " (" + txt + ")" 
 }
